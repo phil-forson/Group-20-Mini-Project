@@ -1,4 +1,4 @@
-import './Thirdlandingpage.css';
+import '../styles/Thirdlandingpage.css';
 import React from 'react';
 
 const Thirdlandingpage = () => {

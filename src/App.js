@@ -1,11 +1,11 @@
 import './App.css';
 import React from 'react';
-import Firstlandingpage from './Firstlandingpage.js';
-import Secondlandingpage from './Secondlandingpage.js';
-import Thirdlandingpage from './Thirdlandingpage.js';
-import Navbar from './Navbar.js';
-import About from './About.js';
-import Photographers  from './Photographers.js';
+import Firstlandingpage from './components/Firstlandingpage.js';
+import Secondlandingpage from './components/Secondlandingpage.js';
+import Thirdlandingpage from './components/Thirdlandingpage.js';
+import Navbar from './components/Navbar.js';
+import About from './components/About.js';
+import Photographers  from './components/Photographers.js';
 import { BrowserRouter } from "react-router-dom";
 import { useRef } from 'react';
 

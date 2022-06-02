@@ -1,8 +1,8 @@
-import './Navbar.css';
+import '../styles/Navbar.css';
 import React from 'react';
 // import { HashLink as Link } from "react-router-hash-link";
 import {useState, useEffect} from 'react';
-import {links} from './Data';
+import {links} from '../Data';
 
 
 

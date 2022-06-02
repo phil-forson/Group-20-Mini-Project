@@ -1,10 +1,10 @@
-import './Firstlandingpage.css';
+import '../styles/Firstlandingpage.css';
 import React from 'react';
 import { gsap } from 'gsap';
 import { useState, useRef, useEffect } from 'react';
-import lightingreflector from './lightingreflector.png';
-import softboxonstand from './softboxonstand.png'
-import leftsoftbox from './leftsoftbox.png'
+import lightingreflector from '../assets/lightingreflector.png';
+import softboxonstand from '../assets/softboxonstand.png'
+import leftsoftbox from '../assets/leftsoftbox.png'
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 

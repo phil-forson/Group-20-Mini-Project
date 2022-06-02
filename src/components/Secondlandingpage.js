@@ -1,8 +1,8 @@
-import './Secondlandingpage.css';
+import '../styles/Secondlandingpage.css';
 import React from 'react';
-import booking from './booking.jpg';
-import shoot from './shoot.jpg';
-import receive from './receive.jpg';
+import booking from '../assets/booking.jpg';
+import shoot from '../assets/shoot.jpg';
+import receive from '../assets/receive.jpg';
 
 
 

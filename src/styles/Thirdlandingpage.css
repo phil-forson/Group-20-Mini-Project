@@ -87,7 +87,7 @@
     width: 600px;
     position: relative;
     /* background-image: linear-gradient(90deg,red, transparent, url(./adultface.jpg)); */
-    background-image: url(./adultface.jpg);
+    background-image: url(../assets/adultface.jpg);
     background-size: cover;
     margin-top: 40px;
     margin-left: auto;
@@ -100,7 +100,7 @@
     width: 600px;
     position: relative;
     /* background-image: linear-gradient(90deg,red, transparent, url(./adultface.jpg)); */
-    background-image: url(./babyphoto.jpg);
+    background-image: url(../assets/babyphoto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 40px;
@@ -114,7 +114,7 @@
     width: 600px;
     position: relative;
     /* background-image: linear-gradient(90deg,red, transparent, url(./adultface.jpg)); */
-    background-image: url(./familyphotoshoot.jpg);
+    background-image: url(../assets/familyphotoshoot.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 40px;
@@ -128,7 +128,7 @@
     width: 600px;
     position: relative;
     /* background-image: linear-gradient(90deg,red, transparent, url(./adultface.jpg)); */
-    background-image: url(./weddingphoto.jpg);
+    background-image: url(../assets/weddingphoto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 40px;

@@ -1,10 +1,8 @@
 import React from 'react';
-import LocomotiveScroll from 'locomotive-scroll';
-import { useEffect } from 'react';
-import './Photographers.css';
-import birthday from './birthday.jpg';
-import softbox from './softbox.png';
-import shoot from './shoot.jpg'
+import '../styles/Photographers.css';
+import birthday from '../assets/birthday.jpg';
+import softbox from '../assets/birthday.jpg';
+import shoot from '../assets/shoot.jpg'
 
 const Photographers = () => {
     // useEffect(() => {
