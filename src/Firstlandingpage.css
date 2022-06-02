@@ -1,0 +1,135 @@
+.Firstlandingpage {
+    background-color: #161616;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.image1 img {
+    position: absolute;
+    left: 270px;
+    top: 65px;
+    height: 300px;
+    opacity: 0.3;
+    width: auto;
+}
+
+.image2 img {
+    height: 400px;
+    opacity: 2.3;
+    position: absolute;
+    left: 1020px;
+    top: 170px;
+}
+.image3 img {
+    height: 400px;
+    opacity: 2.8;
+    position: absolute;
+    left: 160px;
+    top: 190px;
+}
+.maintxt {
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 45px;
+}
+
+
+.momenttxt {
+    color: #2650E4;
+    font-size: 90px;
+}
+
+@media screen and (max-width: 479px){
+    .image img {
+        padding: 40px;
+        height: 300px;
+        left: 50px;
+        top: 200px;
+    }
+
+    .maintxt {
+        font-size: 30px;
+        display: flex;
+    }
+
+    .momenttxt {
+        position: absolute;
+        font-size: 40px;
+    }
+    }
+    @media screen and (max-width: 767px){
+    .howtxt {
+        padding: 40px;
+    }
+    }
+    @media screen and (max-width: 991px){
+    .howtxt {
+        padding: 40px;
+    }
+}
+
+    .scroll {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        margin-top: 260px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        z-index: 1;
+        font-family: Roboto, sans-serif;
+        letter-spacing: 0.2em;
+        font-size: 11px;
+      }
+
+    .scroll.active {
+          animation: active 0.5s ease forwards;
+      }
+
+      .scroll span {
+        display: block;
+      }
+    
+      .scroll svg {
+        margin-top: 10px;
+        width: 18px;
+        height: 18px;
+        animation: scroll 0.65s ease-in-out alternate infinite ;
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 1;
+      }
+
+      @keyframes scroll {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(10px);
+        }
+      }
+
+      @keyframes active {
+          0% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 0;
+          }
+      }
+/* svg {
+    z-index: 99999999;
+} */

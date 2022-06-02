@@ -1,0 +1,75 @@
+.aboutcont {
+    height: 100%;
+    width: 100%;
+}
+
+.aboutcont {
+    margin: 0px;
+    padding: 0;
+    background-color: hsla(0, 0%, 100%, .05);
+    color: hsla(0, 0%, 100%, .5);
+    height: 300px;
+    width: 100%;
+}
+
+.content {
+    padding: 20px 0px;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+}
+
+.content .grp1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.grp1 .links {
+    margin-left: 210px;
+}
+
+.grp2 .links {
+    margin-left: 205px;
+}
+
+.grp3 .links {
+    margin-left: 198px;
+}
+
+.grp3 .days {
+    text-align: left;
+    margin-left: 203px;
+    padding-bottom: 8px;
+}
+
+.links a {
+    padding: 5px;
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, .5);
+}
+
+.discover, .company, .needhlp {
+    font-size: 20px;
+    font-weight: 500;
+    color: hsla(0, 0%, 100%, .9);
+}
+
+.content .grp2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright {
+    border-top: 0.5px solid hsla(0, 0%, 100%, .5);
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 200px;
+    height: 90px;
+}

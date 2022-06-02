@@ -1,0 +1,118 @@
+.photocont {
+    height: 100%;
+    width: 100%;
+    background-color: #161616;
+}
+
+.phototxt {
+    margin-top: 70px;
+    font-family: 'inter, sans-serif';
+}
+
+.phototxt h2 {
+    font-weight: medium;
+    letter-spacing: 0.2px;
+    color: rgb(38, 79, 225);
+    margin-top: 30px;
+    font-size: 26px;
+}
+
+.phototxt .subphototxt {
+    color: hsla(0,0%,100%,.5);
+    align-items: center;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+.photogrid {
+    margin-top: 80px;
+    display: block;
+    margin-bottom: 140px;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.photocard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-between;
+    border-radius: 12px;
+    background-color: hsla(0,0%,100%,.05);
+    direction: ltr;
+    height: 400px;
+}
+
+.photocards {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.photocard .name {
+    margin: 20px 170px 30px 0px;
+    font-size: 20px;
+}
+
+.photocards .one .name {
+    color: rgb(38, 79, 225);
+}
+
+.photocards .two .name {
+    color: rgb(60, 205, 144);
+}
+
+.photocards .three .name {
+    color: rgb(255, 111, 90);
+}
+
+.photocard .starRatings {
+    display: flex;
+    letter-spacing: 3px;
+    font-size: 25px;
+    color: gold;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 170px;
+}
+
+.photocard img {
+    margin-left: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.events {
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.one .events {
+    color: rgb(60, 205, 144);
+}
+
+.two .events {
+    color: rgb(255, 111, 90);
+}
+
+.three .events {
+    color: rgb(38, 79, 225);
+}
+
+.events .event {
+    border-radius: 5px;
+    margin-left: 10px;
+    display: block;
+    background-color: hsla(0,0%,100%,.05);
+    padding: 5px 20px 5px 20px;
+}
