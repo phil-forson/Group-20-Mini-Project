@@ -64,7 +64,7 @@ function Navbar() {
                     })}
                 </ul>
             </nav>
-            <a class="bookbtn" href="https://dragndrop.setmore.com/" target="_blank "><button>Book Now</button></a>
+            <a class="bookbtn" href="https://dndboys.setmore.com/" target="_blank "><button>Book Now</button></a>
         </header>
     )
 }

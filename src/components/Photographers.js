@@ -1,16 +1,10 @@
 import React from 'react';
 import '../styles/Photographers.css';
-import birthday from '../assets/birthday.jpg';
-import softbox from '../assets/birthday.jpg';
-import shoot from '../assets/shoot.jpg'
+import bobbey from '../assets/bobbey.jpeg';
+import philemon from '../assets/philemon.jpg';
+import marfo from '../assets/marfo.jpg';
 
 const Photographers = () => {
-    // useEffect(() => {
-    //     const scroll = new LocomotiveScroll({
-    //         el: document.querySelector('.photocont'),
-    //         smooth: true
-    //     });
-    // })
     return (
         <div className="photocont" id="photographers">
             <div className="phototxt">
@@ -21,7 +15,7 @@ const Photographers = () => {
                 <div className="photocards">
                     <div className="photocard one">
                         <div className="name">Samuel Marfo</div>
-                        <img src={birthday} alt="Birthday Girl" />
+                        <img src={marfo} alt="Birthday Girl" />
                         <div className="starRatings">
                             <div className="star one">★</div>
                             <div className="star two">★</div>
@@ -37,7 +31,7 @@ const Photographers = () => {
                     </div>
                     <div className="photocard two">
                         <div className="name">Philemon Forson</div>
-                        <img src={softbox} alt="Philemon Forson" />
+                        <img src={philemon} alt="Philemon Forson" />
                         <div className="starRatings">
                             <div className="starone">★</div>
                             <div className="startwo">★</div>
@@ -54,7 +48,7 @@ const Photographers = () => {
                     </div>
                     <div className="photocard three">
                         <div className="name">Ernest Otu</div>
-                        <img src={shoot} alt="Bobby" />
+                        <img src={bobbey} alt="Ernest Otu" />
                         <div className="starRatings">
                             <div className="starone">★</div>
                             <div className="startwo">★</div>

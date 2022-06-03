@@ -12,7 +12,7 @@ const Thirdlandingpage = () => {
                 </div>
                 <div className="card2">
                     <h2 className="baby">Baby Photoshoot</h2>
-                        <div className="cat n2">10 photo for $375</div>
+                        <div className="cat n2">10 photos for $375</div>
 
                 </div>
                 <div className="card3">
